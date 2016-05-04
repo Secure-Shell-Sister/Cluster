@@ -16,7 +16,7 @@ OMPI_CXX=clang++-3.6 mpicxx.openmpi -o parallel_parser parallel_log_parser.cpp -
 ```
 or
 ```bash
-MPICH_CXX=clang++-3.6 mpicxx.mpich2 -o parallel_parser parallel_log_parser.cpp -std=c++11 -stdlib=libc++
+MPICH_CXX=clang++ mpicxx.mpich2 -o parallel_parser parallel_log_parser.cpp -std=c++11 -stdlib=libc++
 ```
 
 For gcc:
